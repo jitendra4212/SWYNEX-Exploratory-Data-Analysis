@@ -1,0 +1,34 @@
+
+TITANIC DATASET - EDA INSIGHTS
+
+1. Overall Survival Rate: 38.38%
+
+2. Survival Rate by Gender:
+Sex
+female    74.20
+male      18.89
+Name: Survived, dtype: float64
+
+3. Survival Rate by Passenger Class:
+Pclass
+1    62.96
+2    47.28
+3    24.24
+Name: Survived, dtype: float64
+
+4. Survival Rate by Age Group:
+Age_Group
+Child          57.97
+Teenager       42.86
+Young Adult    35.33
+Adult          40.00
+Senior         22.73
+Name: Survived, dtype: float64
+
+5. Average Fare by Survival:
+Survived
+0    22.12
+1    48.40
+Name: Fare, dtype: float64
+
+Fare Outliers Detected: 116
